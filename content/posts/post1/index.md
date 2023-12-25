@@ -1,0 +1,14 @@
+---
+title: Example Post
+author: Jack Haviland
+format: hugo-md
+---
+
+Here is some code that will execute and show today's date:
+
+``` python
+import datetime
+print(f"Hello, it's {datetime.date.today()}")
+```
+
+    Hello, it's 2023-12-25
